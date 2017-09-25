@@ -4,11 +4,17 @@ html{
     width:100%;
     height:100%;
     font-family: 'Slabo 27px', serif;
+    /*try to tryout display: flexbox*/
+    /*flex direction moves the stick*/
+    /*justify-content move it from flex start to flex end*/
+    /*space between pushed it to the border with no edges*/
+    /*flex-wrap: nowrap, wrap: all go to normal size to tis normal size and anything else goes to the next line, wrap-reverse*/
 }
+
 
 .bg {
     /*background: linear-gradient(to right, black, white, black)*/
-    background-image: url(../img/codes.jpg);
+    background-image: url(../img/numberThree.jpg);
     opacity: .75;
     width: 100%;
     height: 100%;
@@ -51,10 +57,45 @@ html{
 }
 
 #profile-pic {
+    display: none;
     margin-top: 3em;
-    width: 100%;
+    margin-left: -8%;
+    width: 115%;
     border: 1px solid #ABAAAB;
+}
 
+#briefcase-pic {
+    display: none;
+    margin-top: 3em;
+    margin-left: -4%;
+    width: 100%;
+}
+
+#resume-pic {
+    display: none;
+    margin-top: 3em;
+    margin-left: 3%;
+    width: 115%;
+}
+
+#keyLock {
+    width: 100%;
+    font-size: 9vw;
+    color: #bdbdbd;
+    /*color: RGBA(45, 37, 37, 0.96);*/
+    /*color: #6c5a44;*/
+    text-align: center;
+}
+
+#robot-pic {
+    margin-top: 3em;
+    width: 120%;
+    margin-left: -25%;
+}
+.tooltip{
+    left: 150px !important;
+    top: 38px !important;
+    font-size: 12px !important;
 }
 
 @media screen and (max-width: 991px) {
