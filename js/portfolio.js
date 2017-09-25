@@ -6,29 +6,97 @@
 
     $('[data-toggle="tooltip"]').tooltip();
 
-    $("#aboutMe").click(function () {
-        $(".img-circle").slideToggle();
-    });
+    var circleOpen = false,
+        circleCount = 0;
+    var resumeOpen = false,
+        resumeCount = 0;
+    var briefcaseOpen = false,
+        briefcaseCount = 0;
 
     $("#aboutMe").click(function () {
-        $(".img-robot").slideToggle();
+        if(circleCount % 2 == 0){
+            $(".img-circle").slideDown();
+            $(".img-robot").slideUp();
+
+            circleOpen = true;
+        }else{
+            $('.img-circle').slideUp();
+            $(".img-robot").slideToggle();
+
+            circleOpen = false;
+        }
+        circleCount++;
+
+        if($(".img-briefcase").css('display') == 'inline') {
+            $(".img-briefcase").slideUp();
+            briefcaseCount++;
+            briefcaseOpen = false;
+        }
+        if($(".img-resume").css('display') == 'inline') {
+            $(".img-resume").slideUp();
+            resumeCount++;
+            resumeOpen = false;
+        }
     });
+
+    // $("#aboutMe").click(function () {
+    //     $(".img-robot").slideToggle();
+    // });
 
     $("#portfolio").click(function () {
-        $(".img-briefcase").slideToggle();
+        if(briefcaseCount % 2 == 0){
+            $(".img-briefcase").slideDown();
+            $(".img-robot").slideUp();
+            briefcaseOpen = true;
+        }else{
+            $(".img-briefcase").slideUp();
+            $(".img-robot").slideToggle();
+            briefcaseOpen = false;
+        }
+        briefcaseCount++;
+        if($(".img-circle").css('display') == 'inline'){
+            $(".img-circle").slideUp();
+            circleOpen = false;
+            circleCount++;
+
+        }
+        if($(".img-resume").css('display') == 'inline'){
+            $(".img-resume").slideUp();
+            resumeOpen = false;
+            resumeCount++;
+        }
     });
 
-    $("#portfolio").click(function () {
-        $(".img-robot").slideToggle();
-    });
+    // $("#portfolio").click(function () {
+    //     $(".img-robot").slideToggle();
+    // });
 
     $("#resume").click(function () {
-        $(".img-resume").slideToggle();
+        if(resumeCount % 2 == 0){
+            $('.img-resume').slideDown();
+            $(".img-robot").slideUp();
+            resumeOpen = true;
+        }else{
+            $('.img-resume').slideUp();
+            $(".img-robot").slideToggle();
+            resumeOpen = false;
+        }
+        resumeCount++;
+        if($(".img-briefcase").css('display') == 'inline') {
+            $(".img-briefcase").slideUp();
+            briefcaseOpen = false;
+            briefcaseCount++;
+        }
+        if($(".img-circle").css('display') == 'inline') {
+            $(".img-circle").slideUp();
+            circleCount++;
+            circleOpen = false;
+        }
+
     });
 
-    $("#resume").click(function () {
-        $(".img-robot").slideToggle();
-    });
+    // $("#resume").click(function () {
+    // });
     //     function () {
     //         $(".img-robot").slideToggle();
     // });

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=width-device, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Simple Simon</title>
+	<link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		  crossorigin="anonymous"
+	>
+	<link rel="stylesheet" href="css/simple-simon.css">
+</head>
+<body>
+<header>
+	<div class="row">
+		<div class="col-xs-12" align="middle">
+			<h1 id="gameName">Simple Simon</h1>
+		</div>
+	</div>
+</header>
+<main>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6">
+				<div id="red-box" class="box" align="middle" data="0"></div>
+			</div>
+			<div class="col-xs-6">
+				<div id="yellow-box" class="box" align="middle" data="1"></div>
+			</div>
+			<div class="col-xs-6">
+				<div id="green-box" class="box" align="middle" data="2"></div>
+			</div>
+			<div class="col-xs-6">
+				<div id="blue-box" class="box" align="middle" data="3"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3" align="middle">
+				<button id="start">Start</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3" align="middle">
+				<h2>Round: <span id="round">1</span></h2>
+			</div>
+		</div>
+	</div>
+</main>
+
+<script
+		src="http://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous">
+
+</script>
+<script src="js/simple-simon.js"></script>
+</body>
+</html>
