@@ -15,7 +15,6 @@
 
     $("#aboutMe").click(function () {
         if(circleCount % 2 == 0){
-            event.preventDefault();
             $(".img-circle").slideDown();
             $(".img-robot").slideUp();
 
@@ -46,7 +45,6 @@
 
     $("#portfolio").click(function () {
         if(briefcaseCount % 2 == 0){
-            event.preventDefault();
             $(".img-briefcase").slideDown();
             $(".img-robot").slideUp();
             briefcaseOpen = true;
@@ -75,7 +73,6 @@
 
     $("#resume").click(function () {
         if(resumeCount % 2 == 0){
-            event.preventDefault();
             $('.img-resume').slideDown();
             $(".img-robot").slideUp();
             resumeOpen = true;
