@@ -4,7 +4,7 @@
     // $(document).ready(function(){
         // $("a.konami").tooltip();
 
-    $('[data-toggle="tooltip"]').tooltip();
+    // $('[data-toggle="tooltip"]').tooltip();
 
     var circleOpen = false,
         circleCount = 0;
