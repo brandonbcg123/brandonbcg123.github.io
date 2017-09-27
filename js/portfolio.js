@@ -13,8 +13,8 @@
     var briefcaseOpen = false,
         briefcaseCount = 0;
 
-    $("#aboutMe").click(function () {
-        e.preventDefault(e);
+    $("#aboutMe").click(function (e) {
+        e.preventDefault();
         if(circleCount % 2 == 0){
             $(".img-circle").slideDown();
             $(".img-robot").slideUp();
@@ -45,7 +45,7 @@
     // });
 
     $("#portfolio").click(function (e) {
-        e.preventDefault()
+        e.preventDefault();
         if(briefcaseCount % 2 == 0){
             $(".img-briefcase").slideDown();
             $(".img-robot").slideUp();
@@ -74,7 +74,7 @@
     // });
 
     $("#resume").click(function (e) {
-        e.preventDefault()
+        e.preventDefault();
         if(resumeCount % 2 == 0){
             $('.img-resume').slideDown();
             $(".img-robot").slideUp();
