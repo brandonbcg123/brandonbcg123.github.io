@@ -1,2518 +1,2523 @@
 <!--
 /* Font Definitions */
+object {
+height: 800px;
+width: 100%;
+}
+
 @font-face
 {font-family:"Courier New";
-    panose-1:2 7 3 9 2 2 5 2 4 4;
-    mso-font-charset:0;
-    mso-generic-font-family:auto;
-    mso-font-pitch:variable;
-    mso-font-signature:-536859905 -1073711037 9 0 511 0;}
+panose-1:2 7 3 9 2 2 5 2 4 4;
+mso-font-charset:0;
+mso-generic-font-family:auto;
+mso-font-pitch:variable;
+mso-font-signature:-536859905 -1073711037 9 0 511 0;}
 @font-face
 {font-family:Wingdings;
-    panose-1:5 0 0 0 0 0 0 0 0 0;
-    mso-font-charset:2;
-    mso-generic-font-family:auto;
-    mso-font-pitch:variable;
-    mso-font-signature:0 268435456 0 0 -2147483648 0;}
+panose-1:5 0 0 0 0 0 0 0 0 0;
+mso-font-charset:2;
+mso-generic-font-family:auto;
+mso-font-pitch:variable;
+mso-font-signature:0 268435456 0 0 -2147483648 0;}
 @font-face
 {font-family:Wingdings;
-    panose-1:5 0 0 0 0 0 0 0 0 0;
-    mso-font-charset:2;
-    mso-generic-font-family:auto;
-    mso-font-pitch:variable;
-    mso-font-signature:0 268435456 0 0 -2147483648 0;}
+panose-1:5 0 0 0 0 0 0 0 0 0;
+mso-font-charset:2;
+mso-generic-font-family:auto;
+mso-font-pitch:variable;
+mso-font-signature:0 268435456 0 0 -2147483648 0;}
 @font-face
 {font-family:"Lucida Grande";
-    panose-1:2 11 6 0 4 5 2 2 2 4;
-    mso-font-charset:0;
-    mso-generic-font-family:auto;
-    mso-font-pitch:variable;
-    mso-font-signature:-520090897 1342218751 0 0 447 0;}
+panose-1:2 11 6 0 4 5 2 2 2 4;
+mso-font-charset:0;
+mso-generic-font-family:auto;
+mso-font-pitch:variable;
+mso-font-signature:-520090897 1342218751 0 0 447 0;}
 @font-face
 {font-family:"Lucida Sans";
-    panose-1:2 11 6 2 3 5 4 2 2 4;
-    mso-font-charset:0;
-    mso-generic-font-family:auto;
-    mso-font-pitch:variable;
-    mso-font-signature:3 0 0 0 1 0;}
+panose-1:2 11 6 2 3 5 4 2 2 4;
+mso-font-charset:0;
+mso-generic-font-family:auto;
+mso-font-pitch:variable;
+mso-font-signature:3 0 0 0 1 0;}
 @font-face
 {font-family:"CG Times";
-    panose-1:0 0 0 0 0 0 0 0 0 0;
-    mso-font-alt:"Times New Roman";
-    mso-font-charset:0;
-    mso-generic-font-family:roman;
-    mso-font-format:other;
-    mso-font-pitch:variable;
-    mso-font-signature:3 0 0 0 1 0;}
+panose-1:0 0 0 0 0 0 0 0 0 0;
+mso-font-alt:"Times New Roman";
+mso-font-charset:0;
+mso-generic-font-family:roman;
+mso-font-format:other;
+mso-font-pitch:variable;
+mso-font-signature:3 0 0 0 1 0;}
 @font-face
 {font-family:"Californian FB";
-    mso-font-alt:"Helvetica Neue Bold Condensed";
-    mso-font-charset:0;
-    mso-generic-font-family:roman;
-    mso-font-pitch:variable;
-    mso-font-signature:3 0 0 0 1 0;}
+mso-font-alt:"Helvetica Neue Bold Condensed";
+mso-font-charset:0;
+mso-generic-font-family:roman;
+mso-font-pitch:variable;
+mso-font-signature:3 0 0 0 1 0;}
 @font-face
 {font-family:"CG Omega";
-    panose-1:0 0 0 0 0 0 0 0 0 0;
-    mso-font-alt:Cambria;
-    mso-font-charset:0;
-    mso-generic-font-family:swiss;
-    mso-font-format:other;
-    mso-font-pitch:variable;
-    mso-font-signature:3 0 0 0 1 0;}
+panose-1:0 0 0 0 0 0 0 0 0 0;
+mso-font-alt:Cambria;
+mso-font-charset:0;
+mso-generic-font-family:swiss;
+mso-font-format:other;
+mso-font-pitch:variable;
+mso-font-signature:3 0 0 0 1 0;}
 @font-face
 {font-family:"MS Mincho";
-    panose-1:0 0 0 0 0 0 0 0 0 0;
-    mso-font-alt:"\FF2D\FF33 \660E\671D";
-    mso-font-charset:128;
-    mso-generic-font-family:roman;
-    mso-font-format:other;
-    mso-font-pitch:fixed;
-    mso-font-signature:1 134676480 16 0 131072 0;}
+panose-1:0 0 0 0 0 0 0 0 0 0;
+mso-font-alt:"\FF2D\FF33 \660E\671D";
+mso-font-charset:128;
+mso-generic-font-family:roman;
+mso-font-format:other;
+mso-font-pitch:fixed;
+mso-font-signature:1 134676480 16 0 131072 0;}
 /* Style Definitions */
 
 p.MsoNormal, li.MsoNormal, div.MsoNormal
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-parent:"";
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-qformat:yes;
+mso-style-parent:"";
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 h1
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    text-align:center;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:1;
-    font-size:23.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"CG Times","serif";
-    letter-spacing:1.5pt;
-    mso-font-kerning:0pt;}
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+text-align:center;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:1;
+font-size:23.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"CG Times","serif";
+letter-spacing:1.5pt;
+mso-font-kerning:0pt;}
 h2
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    text-align:center;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:2;
-    tab-stops:.25in .5in 2.5in 2.75in 4.5in 4.75in;
-    font-size:12.0pt;
-    font-family:"Californian FB","serif";
-    letter-spacing:1.5pt;}
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+text-align:center;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:2;
+tab-stops:.25in .5in 2.5in 2.75in 4.5in 4.75in;
+font-size:12.0pt;
+font-family:"Californian FB","serif";
+letter-spacing:1.5pt;}
 h3
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    text-align:justify;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:3;
-    tab-stops:.25in .5in 2.5in 2.75in 4.5in 4.75in;
-    font-size:11.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"Californian FB","serif";
-    font-weight:normal;
-    text-decoration:underline;
-    text-underline:single;}
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+text-align:justify;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:3;
+tab-stops:.25in .5in 2.5in 2.75in 4.5in 4.75in;
+font-size:11.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"Californian FB","serif";
+font-weight:normal;
+text-decoration:underline;
+text-underline:single;}
 h4
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:4;
-    font-size:11.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"Times New Roman";
-    font-weight:normal;
-    text-decoration:underline;
-    text-underline:single;}
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:4;
+font-size:11.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"Times New Roman";
+font-weight:normal;
+text-decoration:underline;
+text-underline:single;}
 h5
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    text-align:center;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:5;
-    font-size:14.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"Californian FB","serif";}
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+text-align:center;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:5;
+font-size:14.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"Californian FB","serif";}
 h6
 {mso-style-update:auto;
-    mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:6;
-    font-size:11.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"Times New Roman";
-    font-style:italic;}
+mso-style-unhide:no;
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:6;
+font-size:11.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"Times New Roman";
+font-style:italic;}
 p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:7;
-    tab-stops:right 441.0pt;
-    font-size:11.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"CG Omega","sans-serif";
-    mso-fareast-font-family:"Times New Roman";
-    mso-bidi-font-family:"Times New Roman";
-    font-style:italic;}
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:7;
+tab-stops:right 441.0pt;
+font-size:11.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"CG Omega","sans-serif";
+mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";
+font-style:italic;}
 p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    mso-style-next:Normal;
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    page-break-after:avoid;
-    mso-outline-level:8;
-    tab-stops:right 441.0pt;
-    font-size:12.0pt;
-    font-family:"CG Omega","sans-serif";
-    mso-fareast-font-family:"Times New Roman";
-    mso-bidi-font-family:"Times New Roman";
-    font-style:italic;}
+mso-style-qformat:yes;
+mso-style-next:Normal;
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+page-break-after:avoid;
+mso-outline-level:8;
+tab-stops:right 441.0pt;
+font-size:12.0pt;
+font-family:"CG Omega","sans-serif";
+mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";
+font-style:italic;}
 p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
 {mso-style-noshow:yes;
-    mso-style-link:"Comment Text Char";
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-link:"Comment Text Char";
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 p.MsoHeader, li.MsoHeader, div.MsoHeader
 {mso-style-unhide:no;
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    tab-stops:center 3.0in right 6.0in;
-    font-size:10.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"MS Mincho";}
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+tab-stops:center 3.0in right 6.0in;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"MS Mincho";}
 p.MsoFooter, li.MsoFooter, div.MsoFooter
 {mso-style-priority:99;
-    mso-style-link:"Footer Char";
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    tab-stops:center 3.25in right 6.5in;
-    font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-link:"Footer Char";
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+tab-stops:center 3.25in right 6.5in;
+font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 span.MsoCommentReference
 {mso-style-noshow:yes;
-    mso-ansi-font-size:9.0pt;
-    mso-bidi-font-size:9.0pt;}
+mso-ansi-font-size:9.0pt;
+mso-bidi-font-size:9.0pt;}
 p.MsoTitle, li.MsoTitle, div.MsoTitle
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    margin:0in;
-    margin-bottom:.0001pt;
-    text-align:center;
-    mso-pagination:widow-orphan;
-    font-size:23.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"Californian FB","serif";
-    mso-fareast-font-family:"Times New Roman";
-    mso-bidi-font-family:"Times New Roman";
-    letter-spacing:1.5pt;
-    font-weight:bold;}
+mso-style-qformat:yes;
+margin:0in;
+margin-bottom:.0001pt;
+text-align:center;
+mso-pagination:widow-orphan;
+font-size:23.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"Californian FB","serif";
+mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";
+letter-spacing:1.5pt;
+font-weight:bold;}
 p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
 {mso-style-unhide:no;
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    font-size:9.0pt;
-    mso-bidi-font-size:10.0pt;
-    font-family:"Lucida Sans";
-    mso-fareast-font-family:"MS Mincho";
-    mso-bidi-font-family:"Times New Roman";}
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:9.0pt;
+mso-bidi-font-size:10.0pt;
+font-family:"Lucida Sans";
+mso-fareast-font-family:"MS Mincho";
+mso-bidi-font-family:"Times New Roman";}
 p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
 {mso-style-unhide:no;
-    mso-style-qformat:yes;
-    margin:0in;
-    margin-bottom:.0001pt;
-    text-align:center;
-    mso-pagination:widow-orphan;
-    font-size:23.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"CG Omega","sans-serif";
-    mso-fareast-font-family:"Times New Roman";
-    mso-bidi-font-family:"Times New Roman";
-    letter-spacing:1.5pt;
-    font-weight:bold;}
+mso-style-qformat:yes;
+margin:0in;
+margin-bottom:.0001pt;
+text-align:center;
+mso-pagination:widow-orphan;
+font-size:23.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"CG Omega","sans-serif";
+mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";
+letter-spacing:1.5pt;
+font-weight:bold;}
 p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
 {mso-style-unhide:no;
-    margin-top:0in;
-    margin-right:.25in;
-    margin-bottom:0in;
-    margin-left:.25in;
-    margin-bottom:.0001pt;
-    text-align:justify;
-    mso-pagination:widow-orphan;
-    font-size:11.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+margin-top:0in;
+margin-right:.25in;
+margin-bottom:0in;
+margin-left:.25in;
+margin-bottom:.0001pt;
+text-align:justify;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+mso-bidi-font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
 {mso-style-noshow:yes;
-    mso-style-parent:"Comment Text";
-    mso-style-link:"Comment Subject Char";
-    mso-style-next:"Comment Text";
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    font-size:10.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";
-    font-weight:bold;}
+mso-style-parent:"Comment Text";
+mso-style-link:"Comment Subject Char";
+mso-style-next:"Comment Text";
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";
+font-weight:bold;}
 p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
 {mso-style-noshow:yes;
-    mso-style-link:"Balloon Text Char";
-    margin:0in;
-    margin-bottom:.0001pt;
-    mso-pagination:widow-orphan;
-    font-size:9.0pt;
-    font-family:"Lucida Grande";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-link:"Balloon Text Char";
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:9.0pt;
+font-family:"Lucida Grande";
+mso-fareast-font-family:"Times New Roman";}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 {mso-style-priority:72;
-    mso-style-unhide:no;
-    margin-top:0in;
-    margin-right:0in;
-    margin-bottom:0in;
-    margin-left:.5in;
-    margin-bottom:.0001pt;
-    mso-add-space:auto;
-    mso-pagination:widow-orphan;
-    font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-unhide:no;
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:.5in;
+margin-bottom:.0001pt;
+mso-add-space:auto;
+mso-pagination:widow-orphan;
+font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
 raphCxSpFirst
 {mso-style-priority:72;
-    mso-style-unhide:no;
-    mso-style-type:export-only;
-    margin-top:0in;
-    margin-right:0in;
-    margin-bottom:0in;
-    margin-left:.5in;
-    margin-bottom:.0001pt;
-    mso-add-space:auto;
-    mso-pagination:widow-orphan;
-    font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-unhide:no;
+mso-style-type:export-only;
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:.5in;
+margin-bottom:.0001pt;
+mso-add-space:auto;
+mso-pagination:widow-orphan;
+font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
 agraphCxSpMiddle
 {mso-style-priority:72;
-    mso-style-unhide:no;
-    mso-style-type:export-only;
-    margin-top:0in;
-    margin-right:0in;
-    margin-bottom:0in;
-    margin-left:.5in;
-    margin-bottom:.0001pt;
-    mso-add-space:auto;
-    mso-pagination:widow-orphan;
-    font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-unhide:no;
+mso-style-type:export-only;
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:.5in;
+margin-bottom:.0001pt;
+mso-add-space:auto;
+mso-pagination:widow-orphan;
+font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
 phCxSpLast
 {mso-style-priority:72;
-    mso-style-unhide:no;
-    mso-style-type:export-only;
-    margin-top:0in;
-    margin-right:0in;
-    margin-bottom:0in;
-    margin-left:.5in;
-    margin-bottom:.0001pt;
-    mso-add-space:auto;
-    mso-pagination:widow-orphan;
-    font-size:12.0pt;
-    font-family:"Times New Roman";
-    mso-fareast-font-family:"Times New Roman";}
+mso-style-unhide:no;
+mso-style-type:export-only;
+margin-top:0in;
+margin-right:0in;
+margin-bottom:0in;
+margin-left:.5in;
+margin-bottom:.0001pt;
+mso-add-space:auto;
+mso-pagination:widow-orphan;
+font-size:12.0pt;
+font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";}
 span.FooterChar
 {mso-style-name:"Footer Char";
-    mso-style-priority:99;
-    mso-style-unhide:no;
-    mso-style-locked:yes;
-    mso-style-link:Footer;
-    mso-ansi-font-size:12.0pt;
-    mso-bidi-font-size:12.0pt;}
+mso-style-priority:99;
+mso-style-unhide:no;
+mso-style-locked:yes;
+mso-style-link:Footer;
+mso-ansi-font-size:12.0pt;
+mso-bidi-font-size:12.0pt;}
 span.CommentTextChar
 {mso-style-name:"Comment Text Char";
-    mso-style-noshow:yes;
-    mso-style-unhide:no;
-    mso-style-locked:yes;
-    mso-style-link:"Comment Text";
-    mso-ansi-font-size:12.0pt;
-    mso-bidi-font-size:12.0pt;}
+mso-style-noshow:yes;
+mso-style-unhide:no;
+mso-style-locked:yes;
+mso-style-link:"Comment Text";
+mso-ansi-font-size:12.0pt;
+mso-bidi-font-size:12.0pt;}
 span.CommentSubjectChar
 {mso-style-name:"Comment Subject Char";
-    mso-style-noshow:yes;
-    mso-style-unhide:no;
-    mso-style-locked:yes;
-    mso-style-parent:"Comment Text Char";
-    mso-style-link:"Comment Subject";
-    mso-ansi-font-size:12.0pt;
-    mso-bidi-font-size:12.0pt;
-    font-weight:bold;}
+mso-style-noshow:yes;
+mso-style-unhide:no;
+mso-style-locked:yes;
+mso-style-parent:"Comment Text Char";
+mso-style-link:"Comment Subject";
+mso-ansi-font-size:12.0pt;
+mso-bidi-font-size:12.0pt;
+font-weight:bold;}
 span.BalloonTextChar
 {mso-style-name:"Balloon Text Char";
-    mso-style-noshow:yes;
-    mso-style-unhide:no;
-    mso-style-locked:yes;
-    mso-style-link:"Balloon Text";
-    mso-ansi-font-size:9.0pt;
-    mso-bidi-font-size:9.0pt;
-    font-family:"Lucida Grande";
-    mso-ascii-font-family:"Lucida Grande";
-    mso-hansi-font-family:"Lucida Grande";
-    mso-bidi-font-family:"Lucida Grande";}
+mso-style-noshow:yes;
+mso-style-unhide:no;
+mso-style-locked:yes;
+mso-style-link:"Balloon Text";
+mso-ansi-font-size:9.0pt;
+mso-bidi-font-size:9.0pt;
+font-family:"Lucida Grande";
+mso-ascii-font-family:"Lucida Grande";
+mso-hansi-font-family:"Lucida Grande";
+mso-bidi-font-family:"Lucida Grande";}
 span.SpellE
 {mso-style-name:"";
-    mso-spl-e:yes;}
+mso-spl-e:yes;}
 .MsoChpDefault
 {mso-style-type:export-only;
-    mso-default-props:yes;
-    font-size:10.0pt;
-    mso-ansi-font-size:10.0pt;
-    mso-bidi-font-size:10.0pt;}
+mso-default-props:yes;
+font-size:10.0pt;
+mso-ansi-font-size:10.0pt;
+mso-bidi-font-size:10.0pt;}
 /* Page Definitions */
 @page
 {mso-footnote-separator:url("resume_files/header.htm") fs;
-    mso-footnote-continuation-separator:url("resume_files/header.htm") fcs;
-    mso-endnote-separator:url("resume_files/header.htm") es;
-    mso-endnote-continuation-separator:url("resume_files/header.htm") ecs;}
+mso-footnote-continuation-separator:url("resume_files/header.htm") fcs;
+mso-endnote-separator:url("resume_files/header.htm") es;
+mso-endnote-continuation-separator:url("resume_files/header.htm") ecs;}
 @page WordSection1
 {size:8.5in 11.0in;
-    margin:.5in .5in .5in .5in;
-    mso-header-margin:.5in;
-    mso-footer-margin:.2in;
-    mso-paper-source:0;}
+margin:.5in .5in .5in .5in;
+mso-header-margin:.5in;
+mso-footer-margin:.2in;
+mso-paper-source:0;}
 div.WordSection1
 {page:WordSection1;}
 /* List Definitions */
 
 @list l0
 {mso-list-id:-227;
-    mso-list-template-ids:-155295936;}
+mso-list-template-ids:-155295936;}
 @list l0:level1
 {mso-level-number-format:bullet;
-    mso-level-text:"";
-    mso-level-tab-stop:0in;
-    mso-level-number-position:left;
-    margin-left:0in;
-    text-indent:0in;
-    font-family:Symbol;}
+mso-level-text:"";
+mso-level-tab-stop:0in;
+mso-level-number-position:left;
+margin-left:0in;
+text-indent:0in;
+font-family:Symbol;}
 @list l0:level2
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.5in;
-    mso-level-number-position:left;
-    margin-left:.75in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.5in;
+mso-level-number-position:left;
+margin-left:.75in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l0:level3
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    margin-left:1.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+margin-left:1.25in;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l0:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    margin-left:1.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+margin-left:1.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l0:level5
 {mso-level-number-format:bullet;
-    mso-level-text:\F0FA;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    margin-left:2.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0FA;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+margin-left:2.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l0:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    margin-left:2.75in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+margin-left:2.75in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l0:level7
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    margin-left:3.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+margin-left:3.25in;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l0:level8
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    margin-left:3.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+margin-left:3.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l0:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0FA;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    margin-left:4.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0FA;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+margin-left:4.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l1
 {mso-list-id:147286986;
-    mso-list-template-ids:-30006356;}
+mso-list-template-ids:-30006356;}
 @list l1:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l1:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l1:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l1:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l1:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l1:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l1:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l1:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l1:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l2
 {mso-list-id:190923995;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-1673095646 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
+mso-list-type:hybrid;
+mso-list-template-ids:-1673095646 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
 @list l2:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l2:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l2:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.75in;
-    mso-level-number-position:left;
-    margin-left:.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.75in;
+mso-level-number-position:left;
+margin-left:.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l2:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.25in;
-    mso-level-number-position:left;
-    margin-left:1.25in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.25in;
+mso-level-number-position:left;
+margin-left:1.25in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l2:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.75in;
-    mso-level-number-position:left;
-    margin-left:1.75in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:1.75in;
+mso-level-number-position:left;
+margin-left:1.75in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l2:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:2.25in;
-    mso-level-number-position:left;
-    margin-left:2.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:2.25in;
+mso-level-number-position:left;
+margin-left:2.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l2:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.75in;
-    mso-level-number-position:left;
-    margin-left:2.75in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.75in;
+mso-level-number-position:left;
+margin-left:2.75in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l2:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.25in;
-    mso-level-number-position:left;
-    margin-left:3.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:3.25in;
+mso-level-number-position:left;
+margin-left:3.25in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l2:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.75in;
-    mso-level-number-position:left;
-    margin-left:3.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.75in;
+mso-level-number-position:left;
+margin-left:3.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l3
 {mso-list-id:247812203;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 -463187418 2013969122 953993714 -47389418=
-    4 -884540632 -412700042 1880972 -1354327534 192286676;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 -463187418 2013969122 953993714 -47389418=
+4 -884540632 -412700042 1880972 -1354327534 192286676;}
 @list l3:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.15in;
-    text-indent:-.1in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.15in;
+text-indent:-.1in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l3:level2
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    mso-ansi-font-size:8.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+mso-ansi-font-size:8.0pt;
+font-family:Symbol;}
 @list l3:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l3:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l3:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l3:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l3:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l3:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l3:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l4
 {mso-list-id:310526481;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 1321476856 -345074436 -1914766668 1832415=
-    932 22310256 -662297130 38173762 1477493472 -1352001164;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 1321476856 -345074436 -1914766668 1832415=
+932 22310256 -662297130 38173762 1477493472 -1352001164;}
 @list l4:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.15in;
-    text-indent:-.1in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.15in;
+text-indent:-.1in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l4:level2
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    mso-ansi-font-size:8.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+mso-ansi-font-size:8.0pt;
+font-family:Symbol;}
 @list l4:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l4:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l4:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l4:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l4:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l4:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l4:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l5
 {mso-list-id:345987123;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-706558514 67698689 67698691 67698693 67698689 67698=
-    691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-706558514 67698689 67698691 67698693 67698689 67698=
+691 67698693 67698689 67698691 67698693;}
 @list l5:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l5:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l5:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l5:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l5:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l5:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l5:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l5:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l5:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l6
 {mso-list-id:522324109;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-1754250644 67698699 67698691 67698693 67698689 6769=
-    8691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-1754250644 67698699 67698691 67698693 67698689 6769=
+8691 67698693 67698689 67698691 67698693;}
 @list l6:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0D8;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0D8;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l6:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:1.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:1.25in;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l6:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:1.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:1.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l6:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:2.25in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:2.25in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l6:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:2.75in;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:2.75in;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l6:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:3.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:3.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l6:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:3.75in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:3.75in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l6:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:4.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:4.25in;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l6:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    margin-left:4.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+margin-left:4.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l7
 {mso-list-id:578293541;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 -858874564 -1897883476 1895624124 -247332=
-    800 -699772892 -112275328 1451375068 495714560 -1397342196;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 -858874564 -1897883476 1895624124 -247332=
+800 -699772892 -112275328 1451375068 495714560 -1397342196;}
 @list l7:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.35in;
-    mso-level-number-position:left;
-    margin-left:.15in;
-    text-indent:-.05in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.35in;
+mso-level-number-position:left;
+margin-left:.15in;
+text-indent:-.05in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l7:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l7:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l7:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l7:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l7:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l7:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l7:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l7:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l8
 {mso-list-id:641153475;
-    mso-list-type:hybrid;
-    mso-list-template-ids:1514812772 -262369882 67698691 67698693 67698689 676=
-    98691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:1514812772 -262369882 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
 @list l8:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l8:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l8:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l8:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l8:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l8:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l8:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l8:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l8:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l9
 {mso-list-id:643120795;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-448524062 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
+mso-list-type:hybrid;
+mso-list-template-ids:-448524062 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
 @list l9:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l9:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:.5in;
-    mso-level-number-position:left;
-    margin-left:.5in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:.5in;
+mso-level-number-position:left;
+margin-left:.5in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l9:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    margin-left:1.0in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+margin-left:1.0in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l9:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    margin-left:1.5in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+margin-left:1.5in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l9:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    margin-left:2.0in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+margin-left:2.0in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l9:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    margin-left:2.5in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+margin-left:2.5in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l9:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    margin-left:3.0in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+margin-left:3.0in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l9:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    margin-left:3.5in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+margin-left:3.5in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l9:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    margin-left:4.0in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+margin-left:4.0in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l10
 {mso-list-id:649558962;
-    mso-list-type:hybrid;
-    mso-list-template-ids:1431334510 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
+mso-list-type:hybrid;
+mso-list-template-ids:1431334510 -1 -1 -1 -1 -1 -1 -1 -1 -1;}
 @list l10:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l10:level2
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l10:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.75in;
-    mso-level-number-position:left;
-    margin-left:.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.75in;
+mso-level-number-position:left;
+margin-left:.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l10:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.25in;
-    mso-level-number-position:left;
-    margin-left:1.25in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.25in;
+mso-level-number-position:left;
+margin-left:1.25in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l10:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.75in;
-    mso-level-number-position:left;
-    margin-left:1.75in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:1.75in;
+mso-level-number-position:left;
+margin-left:1.75in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l10:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:2.25in;
-    mso-level-number-position:left;
-    margin-left:2.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:2.25in;
+mso-level-number-position:left;
+margin-left:2.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l10:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.75in;
-    mso-level-number-position:left;
-    margin-left:2.75in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.75in;
+mso-level-number-position:left;
+margin-left:2.75in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l10:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.25in;
-    mso-level-number-position:left;
-    margin-left:3.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:3.25in;
+mso-level-number-position:left;
+margin-left:3.25in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l10:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.75in;
-    mso-level-number-position:left;
-    margin-left:3.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.75in;
+mso-level-number-position:left;
+margin-left:3.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l11
 {mso-list-id:736242478;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-1884154784 -262369882 67698691 67698693 67698689 67=
-    698691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-1884154784 -262369882 67698691 67698693 67698689 67=
+698691 67698693 67698689 67698691 67698693;}
 @list l11:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l11:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l11:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l11:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l11:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l11:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l11:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l11:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l11:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l12
 {mso-list-id:786504788;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-631611374 -262369882 67698691 67698693 67698689 676=
-    98691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-631611374 -262369882 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
 @list l12:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l12:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l12:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l12:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l12:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l12:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l12:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l12:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l12:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l13
 {mso-list-id:957416677;
-    mso-list-type:simple;
-    mso-list-template-ids:1126594070;}
+mso-list-type:simple;
+mso-list-template-ids:1126594070;}
 @list l13:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l14
 {mso-list-id:1008361616;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 -1913212926 2013969122 304672810 86263554=
-    8 -1749644332 -486080842 451443768 -205096934 400048322;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 -1913212926 2013969122 304672810 86263554=
+8 -1749644332 -486080842 451443768 -205096934 400048322;}
 @list l14:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.15in;
-    text-indent:-.1in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.15in;
+text-indent:-.1in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l14:level2
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    mso-ansi-font-size:8.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+mso-ansi-font-size:8.0pt;
+font-family:Symbol;}
 @list l14:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l14:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l14:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l14:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l14:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l14:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l14:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l15
 {mso-list-id:1145008827;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-2109950556 -262369882 67698691 67698693 67698689 67=
-    698691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-2109950556 -262369882 67698691 67698693 67698689 67=
+698691 67698693 67698689 67698691 67698693;}
 @list l15:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l15:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l15:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l15:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l15:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l15:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l15:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l15:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l15:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l16
 {mso-list-id:1250584084;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 -2084418834 218265642 1224893000 -6033130=
-    16 -1195995840 930488960 -119665262 -317949766 -310319430;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 -2084418834 218265642 1224893000 -6033130=
+16 -1195995840 930488960 -119665262 -317949766 -310319430;}
 @list l16:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.4in;
-    mso-level-number-position:left;
-    margin-left:.2in;
-    text-indent:-.05in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.4in;
+mso-level-number-position:left;
+margin-left:.2in;
+text-indent:-.05in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l16:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l16:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l16:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l16:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l16:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l16:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l16:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l16:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l17
 {mso-list-id:1271740701;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-1984919108 -262369882 67698691 67698693 67698689 67=
-    698691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-1984919108 -262369882 67698691 67698693 67698689 67=
+698691 67698693 67698689 67698691 67698693;}
 @list l17:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l17:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l17:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l17:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l17:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l17:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l17:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l17:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l17:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l18
 {mso-list-id:1414861818;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-30006356 -262369882 67698691 67698693 67698689 6769=
-    8691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-30006356 -262369882 67698691 67698693 67698689 6769=
+8691 67698693 67698689 67698691 67698693;}
 @list l18:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l18:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l18:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l18:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l18:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l18:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l18:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l18:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l18:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l19
 {mso-list-id:1440831085;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 -609329632 2013969122 1118499892 40165581=
-    0 -2147086924 516195888 1974788464 606622842 877144050;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 -609329632 2013969122 1118499892 40165581=
+0 -2147086924 516195888 1974788464 606622842 877144050;}
 @list l19:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.15in;
-    text-indent:-.1in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.15in;
+text-indent:-.1in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l19:level2
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    mso-ansi-font-size:8.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+mso-ansi-font-size:8.0pt;
+font-family:Symbol;}
 @list l19:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l19:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l19:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l19:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l19:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l19:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l19:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l20
 {mso-list-id:1573083712;
-    mso-list-type:hybrid;
-    mso-list-template-ids:338065152 1866399114 1532630102 -1537716126 72919924=
-    4 1458705224 85742898 -398663990 -2082184836 1554516906;}
+mso-list-type:hybrid;
+mso-list-template-ids:338065152 1866399114 1532630102 -1537716126 72919924=
+4 1458705224 85742898 -398663990 -2082184836 1554516906;}
 @list l20:level1
 {mso-level-number-format:bullet;
-    mso-level-reset-level:level1;
-    mso-level-text:\F0D8;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.3in;
-    text-indent:-.3in;
-    mso-ansi-font-size:8.0pt;
-    font-family:Wingdings;
-    mso-ansi-font-weight:normal;
-    mso-ansi-font-style:normal;}
+mso-level-reset-level:level1;
+mso-level-text:\F0D8;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.3in;
+text-indent:-.3in;
+mso-ansi-font-size:8.0pt;
+font-family:Wingdings;
+mso-ansi-font-weight:normal;
+mso-ansi-font-style:normal;}
 @list l20:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:.55in;
-    mso-level-number-position:left;
-    margin-left:.55in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:.55in;
+mso-level-number-position:left;
+margin-left:.55in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l20:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.05in;
-    mso-level-number-position:left;
-    margin-left:1.05in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.05in;
+mso-level-number-position:left;
+margin-left:1.05in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l20:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.55in;
-    mso-level-number-position:left;
-    margin-left:1.55in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.55in;
+mso-level-number-position:left;
+margin-left:1.55in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l20:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.05in;
-    mso-level-number-position:left;
-    margin-left:2.05in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.05in;
+mso-level-number-position:left;
+margin-left:2.05in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l20:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:2.55in;
-    mso-level-number-position:left;
-    margin-left:2.55in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:2.55in;
+mso-level-number-position:left;
+margin-left:2.55in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l20:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.05in;
-    mso-level-number-position:left;
-    margin-left:3.05in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.05in;
+mso-level-number-position:left;
+margin-left:3.05in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l20:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.55in;
-    mso-level-number-position:left;
-    margin-left:3.55in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:3.55in;
+mso-level-number-position:left;
+margin-left:3.55in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l20:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.05in;
-    mso-level-number-position:left;
-    margin-left:4.05in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.05in;
+mso-level-number-position:left;
+margin-left:4.05in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l21
 {mso-list-id:1704164480;
-    mso-list-type:hybrid;
-    mso-list-template-ids:273444778 -368125492 -360027116 -847845566 136148841=
-    6 185347996 -1011053614 -1729976370 801282336 -887954288;}
+mso-list-type:hybrid;
+mso-list-template-ids:273444778 -368125492 -360027116 -847845566 136148841=
+6 185347996 -1011053614 -1729976370 801282336 -887954288;}
 @list l21:level1
 {mso-level-number-format:bullet;
-    mso-level-reset-level:level1;
-    mso-level-text:\F0D8;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.3in;
-    text-indent:-.3in;
-    mso-ansi-font-size:8.0pt;
-    font-family:Wingdings;
-    mso-ansi-font-weight:normal;
-    mso-ansi-font-style:normal;}
+mso-level-reset-level:level1;
+mso-level-text:\F0D8;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.3in;
+text-indent:-.3in;
+mso-ansi-font-size:8.0pt;
+font-family:Wingdings;
+mso-ansi-font-weight:normal;
+mso-ansi-font-style:normal;}
 @list l21:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:.55in;
-    mso-level-number-position:left;
-    margin-left:.55in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:.55in;
+mso-level-number-position:left;
+margin-left:.55in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l21:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.05in;
-    mso-level-number-position:left;
-    margin-left:1.05in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.05in;
+mso-level-number-position:left;
+margin-left:1.05in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l21:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.55in;
-    mso-level-number-position:left;
-    margin-left:1.55in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.55in;
+mso-level-number-position:left;
+margin-left:1.55in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l21:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.05in;
-    mso-level-number-position:left;
-    margin-left:2.05in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.05in;
+mso-level-number-position:left;
+margin-left:2.05in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l21:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:2.55in;
-    mso-level-number-position:left;
-    margin-left:2.55in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:2.55in;
+mso-level-number-position:left;
+margin-left:2.55in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l21:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.05in;
-    mso-level-number-position:left;
-    margin-left:3.05in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.05in;
+mso-level-number-position:left;
+margin-left:3.05in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l21:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.55in;
-    mso-level-number-position:left;
-    margin-left:3.55in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:3.55in;
+mso-level-number-position:left;
+margin-left:3.55in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l21:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.05in;
-    mso-level-number-position:left;
-    margin-left:4.05in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.05in;
+mso-level-number-position:left;
+margin-left:4.05in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l22
 {mso-list-id:1811089765;
-    mso-list-type:hybrid;
-    mso-list-template-ids:923015556 67698689 67698691 67698693 67698689 676986=
-    91 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:923015556 67698689 67698691 67698693 67698689 676986=
+91 67698693 67698689 67698691 67698693;}
 @list l22:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l22:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l22:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l22:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l22:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l22:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l22:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l22:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l22:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:none;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:none;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l23
 {mso-list-id:1850748720;
-    mso-list-type:hybrid;
-    mso-list-template-ids:1914216438 -282792904 67698691 67698693 67698689 676=
-    98691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:1914216438 -282792904 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
 @list l23:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l23:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l23:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l23:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l23:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l23:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l23:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l23:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l23:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l24
 {mso-list-id:1870220331;
-    mso-list-type:hybrid;
-    mso-list-template-ids:273444778 -929804378 293652164 -1053231490 -63563367=
-    0 -1435345004 427079282 -322560128 -1318318534 556985440;}
+mso-list-type:hybrid;
+mso-list-template-ids:273444778 -929804378 293652164 -1053231490 -63563367=
+0 -1435345004 427079282 -322560128 -1318318534 556985440;}
 @list l24:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.4in;
-    mso-level-number-position:left;
-    margin-left:.2in;
-    text-indent:-.05in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.4in;
+mso-level-number-position:left;
+margin-left:.2in;
+text-indent:-.05in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l24:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:.55in;
-    mso-level-number-position:left;
-    margin-left:.55in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:.55in;
+mso-level-number-position:left;
+margin-left:.55in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l24:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.05in;
-    mso-level-number-position:left;
-    margin-left:1.05in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.05in;
+mso-level-number-position:left;
+margin-left:1.05in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l24:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.55in;
-    mso-level-number-position:left;
-    margin-left:1.55in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.55in;
+mso-level-number-position:left;
+margin-left:1.55in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l24:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.05in;
-    mso-level-number-position:left;
-    margin-left:2.05in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.05in;
+mso-level-number-position:left;
+margin-left:2.05in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l24:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:2.55in;
-    mso-level-number-position:left;
-    margin-left:2.55in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:2.55in;
+mso-level-number-position:left;
+margin-left:2.55in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l24:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.05in;
-    mso-level-number-position:left;
-    margin-left:3.05in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.05in;
+mso-level-number-position:left;
+margin-left:3.05in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l24:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.55in;
-    mso-level-number-position:left;
-    margin-left:3.55in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:3.55in;
+mso-level-number-position:left;
+margin-left:3.55in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l24:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.05in;
-    mso-level-number-position:left;
-    margin-left:4.05in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.05in;
+mso-level-number-position:left;
+margin-left:4.05in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l25
 {mso-list-id:1907839730;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-1661670070 -262369882 67698691 67698693 67698689 67=
-    698691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-1661670070 -262369882 67698691 67698693 67698689 67=
+698691 67698693 67698689 67698691 67698693;}
 @list l25:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l25:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l25:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l25:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l25:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l25:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l25:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l25:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";}
 @list l25:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l26
 {mso-list-id:1936936578;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 1321476856 67698689 -1914766668 183241593=
-    2 22310256 -662297130 38173762 1477493472 -1352001164;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 1321476856 67698689 -1914766668 183241593=
+2 22310256 -662297130 38173762 1477493472 -1352001164;}
 @list l26:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.15in;
-    text-indent:-.1in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.15in;
+text-indent:-.1in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l26:level2
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l26:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l26:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l26:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l26:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l26:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l26:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l26:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l27
 {mso-list-id:2041389951;
-    mso-list-type:simple;
-    mso-list-template-ids:1126594070;}
+mso-list-type:simple;
+mso-list-template-ids:1126594070;}
 @list l27:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l28
 {mso-list-id:2052614146;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-903964830 2000996846 1740535782 1047808328 -1558532=
-    784 -1975121832 2054200532 -397358472 -500504176 -872757402;}
+mso-list-type:hybrid;
+mso-list-template-ids:-903964830 2000996846 1740535782 1047808328 -1558532=
+784 -1975121832 2054200532 -397358472 -500504176 -872757402;}
 @list l28:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.3in;
-    mso-level-number-position:left;
-    margin-left:.15in;
-    text-indent:-.1in;
-    mso-ansi-font-size:9.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.3in;
+mso-level-number-position:left;
+margin-left:.15in;
+text-indent:-.1in;
+mso-ansi-font-size:9.0pt;
+font-family:Symbol;}
 @list l28:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:1.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l28:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:1.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:1.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l28:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l28:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:2.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:2.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l28:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l28:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:3.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:3.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l28:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:4.0in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:4.0in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l28:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:4.5in;
-    mso-level-number-position:left;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:4.5in;
+mso-level-number-position:left;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l29
 {mso-list-id:2132623553;
-    mso-list-type:hybrid;
-    mso-list-template-ids:-894111180 2013969122 67698691 67698693 67698689 676=
-    98691 67698693 67698689 67698691 67698693;}
+mso-list-type:hybrid;
+mso-list-template-ids:-894111180 2013969122 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
 @list l29:level1
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    mso-ansi-font-size:8.0pt;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+mso-ansi-font-size:8.0pt;
+font-family:Symbol;}
 @list l29:level2
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:.25in;
-    mso-level-number-position:left;
-    margin-left:.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:.25in;
+mso-level-number-position:left;
+margin-left:.25in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l29:level3
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:.75in;
-    mso-level-number-position:left;
-    margin-left:.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:.75in;
+mso-level-number-position:left;
+margin-left:.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l29:level4
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:1.25in;
-    mso-level-number-position:left;
-    margin-left:1.25in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:1.25in;
+mso-level-number-position:left;
+margin-left:1.25in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l29:level5
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:1.75in;
-    mso-level-number-position:left;
-    margin-left:1.75in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:1.75in;
+mso-level-number-position:left;
+margin-left:1.75in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l29:level6
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:2.25in;
-    mso-level-number-position:left;
-    margin-left:2.25in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:2.25in;
+mso-level-number-position:left;
+margin-left:2.25in;
+text-indent:-.25in;
+font-family:Wingdings;}
 @list l29:level7
 {mso-level-number-format:bullet;
-    mso-level-text:\F0B7;
-    mso-level-tab-stop:2.75in;
-    mso-level-number-position:left;
-    margin-left:2.75in;
-    text-indent:-.25in;
-    font-family:Symbol;}
+mso-level-text:\F0B7;
+mso-level-tab-stop:2.75in;
+mso-level-number-position:left;
+margin-left:2.75in;
+text-indent:-.25in;
+font-family:Symbol;}
 @list l29:level8
 {mso-level-number-format:bullet;
-    mso-level-text:o;
-    mso-level-tab-stop:3.25in;
-    mso-level-number-position:left;
-    margin-left:3.25in;
-    text-indent:-.25in;
-    font-family:"Courier New";
-    mso-bidi-font-family:"Times New Roman";}
+mso-level-text:o;
+mso-level-tab-stop:3.25in;
+mso-level-number-position:left;
+margin-left:3.25in;
+text-indent:-.25in;
+font-family:"Courier New";
+mso-bidi-font-family:"Times New Roman";}
 @list l29:level9
 {mso-level-number-format:bullet;
-    mso-level-text:\F0A7;
-    mso-level-tab-stop:3.75in;
-    mso-level-number-position:left;
-    margin-left:3.75in;
-    text-indent:-.25in;
-    font-family:Wingdings;}
+mso-level-text:\F0A7;
+mso-level-tab-stop:3.75in;
+mso-level-number-position:left;
+margin-left:3.75in;
+text-indent:-.25in;
+font-family:Wingdings;}
 ol
 {margin-bottom:0in;}
 ul

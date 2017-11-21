@@ -17,11 +17,15 @@
         e.preventDefault();
         if(circleCount % 2 == 0){
             $(".img-circle").slideDown();
+            $(".designer").slideDown();
+            $("#summary").slideDown();
             $(".img-robot").slideUp();
 
             circleOpen = true;
         }else{
             $('.img-circle').slideUp();
+            $(".designer").slideUp();
+            $("#summary").slideUp();
             $(".img-robot").slideToggle();
 
             circleOpen = false;
@@ -58,6 +62,8 @@
         briefcaseCount++;
         if($(".img-circle").css('display') == 'inline'){
             $(".img-circle").slideUp();
+            $(".designer").slideUp();
+            $("#summary").slideUp();
             circleOpen = false;
             circleCount++;
 
@@ -92,6 +98,8 @@
         }
         if($(".img-circle").css('display') == 'inline') {
             $(".img-circle").slideUp();
+            $(".designer").slideUp();
+            $("#summary").slideUp();
             circleCount++;
             circleOpen = false;
         }
