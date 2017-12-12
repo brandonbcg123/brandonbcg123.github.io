@@ -184,13 +184,13 @@ html {
     #summary {
         top: -4px !important;
         left: 32px !important;
-        font-size: 20px !important
+        font-size: 30px !important
 
     }
 
     .designer {
         top: -2px !important;
         left: 29px !important;
-        font-size: 23px !important;
+        font-size: 32px !important;
     }
 }
