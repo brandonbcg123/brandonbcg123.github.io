@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Slabo 27px', serif;
+    /*try to tryout display: flexbox*/
+    /*flex direction moves the stick*/
+    /*justify-content move it from flex start to flex end*/
+    /*space between pushed it to the border with no edges*/
+    /*flex-wrap: nowrap, wrap: all go to normal size to tis normal size and anything else goes to the next line, wrap-reverse*/
+}
+
+.bg-projects {
+    /*background: linear-gradient(to right, black, white, black)*/
+    background-image: url(../img/numberThree.jpg);
+    opacity: .75;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*z-index: -1 basically puts the background in the background*/
+}
+
+#projects {
+    text-align: center;
+    background-color: RGBA(0, 0, 0, .5);
+    color: #FFF;
+    box-shadow: 0 0 10px 25px RGBA(0, 0, 0, .45);
+}
+
+#projects h1 {
+    font-size: 50px;
+    /*font-size: 4.4vw*/
+    /*vw increase the font in regards to an increase and decrease of the page in relation to also how its container changers*/
+}
+/*#projects-title {*/
+    /*font-size: 60px;*/
+    /*font-style: oblique;*/
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+/*}*/
+
+#projects {
+    width: 100%;
+}
+
+#back-button {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+img.img-proj {
+    padding: 30px;
+}
+
+#back-button {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    float:none;
+    zoom:1;
+    margin-left: 45px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav > li {
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav > li > a {
+    width: 100%;
+}
+
+@media (max-width: 1500px) {
+    .col-lg-4 {
+        width: 50%;
+    }
+}
+
+/*@media (max-width: 1200px){*/
+/*.col-xs-6 {*/
+/*width: 50%;*/
+/*}*/
+/*#summary {*/
+/*top: 90px !important;;*/
+/*left: 42px !important;;*/
+/*font-size: 20px !important;;*/
+/*}*/
+
+/*.designer {*/
+/*top: 94px !important;;*/
+/*left: 45px !important;;*/
+/*font-size: 36px !important;;*/
+/*}*/
+}
+/*@media (min-width: @screen-lg-min) {*/
+
+/*}*/

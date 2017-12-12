@@ -20,12 +20,12 @@ h1#gameName {
 
 #red-box {
     background-color: #F00;
-    margin-top: 40%;
+    /*margin-top: 40%;*/
 }
 
 #yellow-box {
     background-color: #FF0;
-    margin-top: 40%;
+    /*margin-top: 40%;*/
 }
 
 #green-box {
@@ -42,6 +42,10 @@ h1#gameName {
     height: 40px;
     margin-top: 10%;
     font-weight: bold;
+}
+
+#back-projects {
+    margin-top: 10%;
 }
 
 @keyframes lightUp {
