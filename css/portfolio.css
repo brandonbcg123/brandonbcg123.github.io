@@ -140,12 +140,14 @@ html {
     .nav > li {
         margin-bottom: .5em;
     }
+
     #summary {
         top: 3px !important;
         left: 42px !important;
-        font-size: 23px !important
+        font-size: 30px !important
 
     }
+
     .designer {
         top: 1px !important;
         left: 50px !important;
@@ -158,16 +160,18 @@ html {
         font-size: 38px !important;
         /*font-size: 5vw;*/
     }
+
     #summary {
         top: 6px !important;
         left: 45px !important;
-        font-size: 19px !important;
+        font-size: 28px !important;
 
     }
+
     .designer {
         top: 0px !important;
         left: 50px !important;
-        font-size: 32px !important;
+        font-size: 38px !important;
     }
 }
 
@@ -180,9 +184,10 @@ html {
     #summary {
         top: -4px !important;
         left: 32px !important;
-        font-size: 12px !important
+        font-size: 20px !important
 
     }
+
     .designer {
         top: -2px !important;
         left: 29px !important;
