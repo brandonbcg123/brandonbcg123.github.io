@@ -144,14 +144,14 @@ html {
     #summary {
         top: 3px !important;
         left: 42px !important;
-        font-size: 30px !important
+        font-size: 40px !important
 
     }
 
     .designer {
         top: 1px !important;
         left: 50px !important;
-        font-size: 36px !important;
+        font-size: 46px !important;
     }
 }
 
@@ -164,14 +164,14 @@ html {
     #summary {
         top: 6px !important;
         left: 45px !important;
-        font-size: 28px !important;
+        font-size: 38px !important;
 
     }
 
     .designer {
         top: 0px !important;
         left: 50px !important;
-        font-size: 38px !important;
+        font-size: 42px !important;
     }
 }
 
