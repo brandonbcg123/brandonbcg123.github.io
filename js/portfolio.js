@@ -19,6 +19,7 @@
             $(".img-circle").slideDown();
             $(".designer").slideDown();
             $("#summary").slideDown();
+            $(".img-social").slideDown();
             $(".img-robot").slideUp();
 
             circleOpen = true;
@@ -26,6 +27,7 @@
             $('.img-circle').slideUp();
             $(".designer").slideUp();
             $("#summary").slideUp();
+            $(".img-social").slideUp();
             $(".img-robot").slideToggle();
 
             circleOpen = false;
@@ -64,6 +66,7 @@
             $(".img-circle").slideUp();
             $(".designer").slideUp();
             $("#summary").slideUp();
+            $(".img-social").slideUp();
             circleOpen = false;
             circleCount++;
 
@@ -100,6 +103,7 @@
             $(".img-circle").slideUp();
             $(".designer").slideUp();
             $("#summary").slideUp();
+            $(".img-social").slideUp();
             circleCount++;
             circleOpen = false;
         }
