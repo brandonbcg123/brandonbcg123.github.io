@@ -145,8 +145,8 @@ html {
     #summary {
         top: 3px !important;
         left: -4px !important;
-        font-size: 5vw !important;
-        /*font-size: 34px !important;*/
+        /*font-size: 5vw !important;*/
+        font-size: 34px !important;
     }
 
     .designer {
@@ -165,8 +165,8 @@ html {
     #summary {
         top: 6px !important;
         left: -3px !important;
-        font-size: 5vw !important;
-        /*font-size: 38px !important;*/
+        /*font-size: 5vw !important;*/
+        font-size: 38px !important;
 
     }
 
@@ -186,8 +186,8 @@ html {
     #summary {
         top: -4px !important;
         left: -3px !important;
-        font-size: 5vw !important;
-        /*font-size: 30px !important*/
+        /*font-size: 5vw !important;*/
+        font-size: 30px !important
 
     }
 
