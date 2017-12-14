@@ -24,7 +24,7 @@
         // }
 
         function getWeather(lat, lon) {
-            $.get('http://api.openweathermap.org/data/2.5/forecast', {
+            $.get('https://api.openweathermap.org/data/2.5/forecast', {
                 APPID: "1d9259fc21b4fb3a6976934537609e66",
                 lat: lat,
                 lon: lon,
