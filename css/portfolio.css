@@ -27,7 +27,7 @@ html {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    /*Overflow: hidden;*/
+    Overflow: hidden;
     /*z-index: -1 basically puts the background in the background*/
 }
 
