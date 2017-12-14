@@ -92,4 +92,7 @@ main {
     main {
         width: 100%;
     }
+    #operator {
+        width: 15%;
+    }
 }
