@@ -1,11 +1,14 @@
 body {
     font-family: sans-serif;
+    background: url(../../img/crossword.png);
 }
+
 main {
     border: 1px solid gray;
     border-radius: 5px;
     width: 40%;
     margin: 0 auto;
+    margin-top: 7%;
 }
 
 .row {
@@ -83,4 +86,10 @@ main {
 
 #operator {
     width: 10%;
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        width: 100%;
+    }
 }
