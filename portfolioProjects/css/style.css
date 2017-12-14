@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    background-image: url("../../img/gplaypattern_@2X.png");
+    font-family: 'Play', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#trademark {
+    font-size: .75em;
+}
+
+.glyphicon {
+    font-weight: bold;
+}
+
+.glyphicon:hover {
+    cursor: pointer;
+}
+
+.glyphicon-plus{
+    top: -4px;
+    color: #229c1e;
+}
+
+.glyphicon-edit {
+    color: #334fff;
+}
+
+.glyphicon-minus {
+    color: red;
+}
+
+#pageTitle {
+    margin-bottom: 40px;
+    font-size: 3.5em;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+#chart-title {
+    display: inline;
+    font-size: 3em;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+#movieTable {
+    margin: 10px auto;
+    width: 80%;
+    mid-width:50%;
+    border: 1px solid #D3D3D3;
+}
+
+th {
+    text-decoration: underline;
+    font-size: 2em;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+td {
+    font-size: 1.5em;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.modal.fade{
+    opacity:1;
+}
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    transform: translate(0);
+}

@@ -60,6 +60,11 @@ html {
     width: 100%;
 }
 
+#home-button {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
 #back-button {
     margin-top: 0;
     font-size: 20px;
@@ -67,11 +72,14 @@ html {
 }
 
 img.img-proj {
-    padding: 30px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 #back {
     text-align: center;
+    margin-top: 5%;
 }
 
 #back-button {
@@ -100,28 +108,6 @@ a#back-button.btn.btn-info {
     width: 100%;
 }
 
-/*@media (max-width: 1500px) {*/
-    /*.col-lg-4 {*/
-        /*width: 50%;*/
-    /*}*/
-/*}*/
-
-/*@media (max-width: 1200px){*/
-/*.col-xs-6 {*/
-/*width: 50%;*/
-/*}*/
-/*#summary {*/
-/*top: 90px !important;;*/
-/*left: 42px !important;;*/
-/*font-size: 20px !important;;*/
-/*}*/
-
-/*.designer {*/
-/*top: 94px !important;;*/
-/*left: 45px !important;;*/
-/*font-size: 36px !important;;*/
-/*}*/
+{
+    margin-left: 3%;
 }
-/*@media (min-width: @screen-lg-min) {*/
-
-/*}*/

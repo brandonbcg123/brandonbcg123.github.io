@@ -9,6 +9,7 @@ main {
     width: 40%;
     margin: 0 auto;
     margin-top: 7%;
+    margin-bottom: 2%;
 }
 
 .row {
@@ -88,11 +89,37 @@ main {
     width: 10%;
 }
 
+.btnBack {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
 @media screen and (max-width: 767px) {
     main {
         width: 100%;
     }
     #operator {
-        width: 17%;
+        width: 16%;
     }
 }
