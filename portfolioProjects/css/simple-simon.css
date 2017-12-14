@@ -9,6 +9,7 @@ body{
     margin: 25px;
     align-content: center;
     opacity: .35;
+    cursor: pointer;
 }
 /*.box:nth-child(2) {*/
 /*clear: left;*/

@@ -1,0 +1,106 @@
+{
+  "movies": [
+    {
+      "title": "Bridesmaids",
+      "rating": "5",
+      "id": 4,
+      "genre": "Adventure"
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "rating": "4",
+      "id": 5,
+      "genre": "Adventure"
+    },
+    {
+      "title": "Willy Wonky",
+      "rating": "2",
+      "id": 7,
+      "genre": "Comedy"
+    },
+    {
+      "title": "T-Payne - Coding Like a Motha!",
+      "rating": "5",
+      "id": 8,
+      "genre": "Romance"
+    },
+    {
+      "title": "50 Shades Gray",
+      "rating": "5",
+      "id": 9,
+      "genre": "Romance"
+    },
+    {
+      "title": "Rocky",
+      "rating": "4",
+      "id": 10,
+      "genre": "Action"
+    },
+    {
+      "title": "Ali",
+      "rating": "5",
+      "id": 11,
+      "genre": "Action"
+    },
+    {
+      "title": "Shakira",
+      "rating": "5",
+      "id": 14,
+      "genre": "Romance"
+    },
+    {
+      "title": "Harry Potter 2",
+      "rating": "4",
+      "id": 15,
+      "genre": "Adventure"
+    },
+    {
+      "title": "Harry Potter 3",
+      "rating": "4",
+      "id": 16,
+      "genre": "Adventure"
+    },
+    {
+      "title": "Harry Potter 4",
+      "rating": "4",
+      "id": 17,
+      "genre": "Adventure"
+    },
+    {
+      "title": "Hunger Games",
+      "rating": "4",
+      "id": 19,
+      "genre": "Adventure"
+    },
+    {
+      "title": "Rush Hour",
+      "rating": "5",
+      "id": 20,
+      "genre": "Comedy"
+    },
+    {
+      "title": "Wonder Woman",
+      "rating": "2",
+      "genre": "Action",
+      "id": 22
+    },
+    {
+      "title": "Star Wars: A New Hope",
+      "rating": "5",
+      "genre": "Adventure",
+      "id": 24
+    },
+    {
+      "title": "Fire Walk With Me",
+      "rating": "4",
+      "genre": "Drama",
+      "id": 25
+    },
+    {
+      "title": "Scent of a Woman",
+      "rating": "5",
+      "genre": "Drama",
+      "id": 26
+    }
+  ]
+}
