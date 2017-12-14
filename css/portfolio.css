@@ -154,10 +154,16 @@ html {
         margin-bottom: .5em;
     }
 
+    #profile-pic {
+        margin-left: 4%;
+        width: 90%;
+    }
+
     #summary {
         top: 3px !important;
         left: -4px !important;
         font-size: 4vw !important;
+        padding: 10px;
         /*font-size: 34px !important;*/
     }
 
@@ -166,12 +172,22 @@ html {
         left: 4px !important;
         font-size: 46px !important;
     }
+
+    #icons {
+        margin-bottom: 20px;
+    }
 }
+
 
 @media screen and (max-width: 780px) {
     #welcome h1 {
         font-size: 38px !important;
         /*font-size: 5vw;*/
+    }
+
+    #profile-pic {
+        margin-left: 4%;
+        width: 90%;
     }
 
     #summary {
@@ -187,12 +203,21 @@ html {
         left: -6px !important;
         font-size: 6vw !important;
     }
+
+    #icons {
+        margin-bottom: 25px;
+    }
 }
 
 @media screen and (max-width: 660px) {
     #welcome h1 {
         font-size: 34px !important;
         /*font-size: 5vw;*/
+    }
+
+    #profile-pic {
+        margin-left: 4%;
+        width: 90%;
     }
 
     #summary {
@@ -208,5 +233,9 @@ html {
         top: -2px !important;
         left: -3px !important;
         font-size: 6vw !important;
+    }
+
+    #icons {
+        margin-bottom: 30px;
     }
 }
