@@ -149,7 +149,7 @@ html {
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
     .nav > li {
         margin-bottom: .5em;
     }
@@ -178,6 +178,11 @@ html {
     }
 }
 
+@media screen and (max-width: 895px) {
+    #summary {
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 780px) {
     #welcome h1 {
@@ -223,7 +228,6 @@ html {
     #summary {
         top: -4px !important;
         left: -3px !important;
-        font-size: 5vw !important;
         text-align: center;
         /*font-size: 30px !important*/
 
