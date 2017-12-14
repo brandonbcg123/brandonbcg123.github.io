@@ -27,6 +27,16 @@ html {
     /*z-index: -1 basically puts the background in the background*/
 }
 
+.project-title {
+    top: 100px;
+    left: 45px;
+    font-size: 40px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 #projects {
     text-align: center;
     background-color: RGBA(0, 0, 0, .5);
