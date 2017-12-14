@@ -39,7 +39,7 @@
                 $("#coordinatesCity").html(cityHtml);
                 data.list.forEach(function (day) {
                     var icon = day.weather[0].icon;
-                    var url = "http://openweathermap.org/img/w/" + icon + ".png";
+                    var url = "https://openweathermap.org/img/w/" + icon + ".png";
                     var img = "<img src='" + url + "'>";
                     html += "<div class='col-xs-4 weatherInfo'>";
                     html += "<h2>" + Math.round(day.main.temp_max) + "°/";
