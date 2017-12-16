@@ -12,6 +12,97 @@ html {
     /*flex-wrap: nowrap, wrap: all go to normal size to tis normal size and anything else goes to the next line, wrap-reverse*/
 }
 
+/*.tooltip{*/
+      /*position:absolute;*/
+      /*z-index:1020;*/
+      /*display:block;*/
+      /*visibility:visible;*/
+      /*padding:5px;*/
+      /*font-size:13px;*/
+      /*opacity:0;*/
+      /*filter:alpha(opacity=0)*/
+  /*}*/
+/*.tooltip.in{*/
+    /*opacity:.8;*/
+    /*filter:alpha(opacity=80)*/
+/*}*/
+
+/*div#tooltip652106.tooltip.fade.bottom.in {*/
+    /*left: 37% !important;*/
+    /*top: 16.5% !important;*/
+    /*font-size: 20px !important;*/
+    /*position: relative;*/
+    /*z-index: 1070;*/
+    /*display: block;*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*!*font-size: 12px;*!*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 1.428571;*/
+    /*!*text-align: left;*!*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*text-shadow: none;*/
+    /*text-transform: none;*/
+    /*letter-spacing: normal;*/
+    /*word-break: normal;*/
+    /*word-spacing: normal;*/
+    /*word-wrap: normal;*/
+    /*white-space: normal;*/
+    /*!*filter: alpha(opacity=0);*!*/
+    /*!*opacity: 0;*!*/
+    /*line-break: auto;*/
+    /*margin-top: -2.0% !important;*/
+    /*!*margin-left: 251px;*!*/
+/*}*/
+
+
+#briefcase-tool {
+    position: relative !important;
+    max-width: none !important;
+    font-size: 20px !important;
+    margin-top: 4% !important;
+    margin-left: -47% !important;
+    width: 301px !important;
+    height: 36px!important;
+    padding: 3px 8px !important;
+    color: #314A5B;
+    text-align: center;
+    font-weight: 900;
+    z-index: 1070 !important;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #A2BBCC), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #A2BBCC 1px, #FFFFFF 25px);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+    border: 1px solid #314A5B;
+    /*margin-top: 400px;*/
+    /*position: relative;*/
+    /*z-index: 1070;*/
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.428571;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    line-break: auto;
+}
+
+.glyphicon-triangle-top {
+    position: absolute !important;
+    margin-top: 0.98%;
+    margin-left: -3% !important;
+    top: 0px !important;
+    left: -1% !important;
+    border-width: 0 5px 5px !important;
+    border-bottom-color: #000 !important;
+}
 .bg {
     /*background: linear-gradient(to right, black, white, black)*/
     background-image: url(../img/numberFour.jpg);
@@ -89,6 +180,10 @@ html {
     text-align-last: center;
 }
 
+#briefcase-combo {
+
+}
+
 #briefcase-pic {
     display: none;
     margin-top: 3em;
@@ -129,11 +224,6 @@ html {
     width: 50px;
 }
 
-.tooltip {
-    left: 150px !important;
-    top: 38px !important;
-    font-size: 12px !important;
-}
 
 @media screen and (max-width: 1199px) {
     #summary {
@@ -147,6 +237,16 @@ html {
         left: 45px !important;;
         font-size: 42px !important;;
     }
+
+    #briefcase-tool {
+        margin-top: 5% !important;
+        margin-left: -56.5% !important;
+    }
+
+    .glyphicon-triangle-top {
+        margin-top: 1.33% !important;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -172,6 +272,14 @@ html {
         left: 4px !important;
         font-size: 46px !important;
     }
+    #briefcase-tool {
+        margin-top: 0% !important;
+        margin-left: -51% !important;
+    }
+    .glyphicon-triangle-top {
+        margin-top: -2.67% !important;
+        margin-left: -4.3% !important;
+    }
 
     #icons {
         margin-bottom: 20px;
@@ -188,6 +296,14 @@ html {
     #welcome h1 {
         font-size: 38px !important;
         /*font-size: 5vw;*/
+    }
+
+    #briefcase-tool {
+        margin-top: -1% !important;
+        margin-left: -58% !important;
+    }
+    .glyphicon-triangle-top {
+        margin-top: -3.67% !important;
     }
 
     #profile-pic {
@@ -223,6 +339,12 @@ html {
     #profile-pic {
         margin-left: 4%;
         width: 90%;
+    }
+
+
+    #briefcase-tool {
+        margin-top: -0.7% !important;
+        margin-left: -61% !important;
     }
 
     #summary {
