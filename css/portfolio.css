@@ -12,97 +12,6 @@ html {
     /*flex-wrap: nowrap, wrap: all go to normal size to tis normal size and anything else goes to the next line, wrap-reverse*/
 }
 
-/*.tooltip{*/
-      /*position:absolute;*/
-      /*z-index:1020;*/
-      /*display:block;*/
-      /*visibility:visible;*/
-      /*padding:5px;*/
-      /*font-size:13px;*/
-      /*opacity:0;*/
-      /*filter:alpha(opacity=0)*/
-  /*}*/
-/*.tooltip.in{*/
-    /*opacity:.8;*/
-    /*filter:alpha(opacity=80)*/
-/*}*/
-
-/*div#tooltip652106.tooltip.fade.bottom.in {*/
-    /*left: 37% !important;*/
-    /*top: 16.5% !important;*/
-    /*font-size: 20px !important;*/
-    /*position: relative;*/
-    /*z-index: 1070;*/
-    /*display: block;*/
-    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-    /*!*font-size: 12px;*!*/
-    /*font-style: normal;*/
-    /*font-weight: 400;*/
-    /*line-height: 1.428571;*/
-    /*!*text-align: left;*!*/
-    /*text-align: center;*/
-    /*text-decoration: none;*/
-    /*text-shadow: none;*/
-    /*text-transform: none;*/
-    /*letter-spacing: normal;*/
-    /*word-break: normal;*/
-    /*word-spacing: normal;*/
-    /*word-wrap: normal;*/
-    /*white-space: normal;*/
-    /*!*filter: alpha(opacity=0);*!*/
-    /*!*opacity: 0;*!*/
-    /*line-break: auto;*/
-    /*margin-top: -2.0% !important;*/
-    /*!*margin-left: 251px;*!*/
-/*}*/
-
-
-#briefcase-tool {
-    position: relative !important;
-    max-width: none !important;
-    font-size: 20px !important;
-    margin-top: 4% !important;
-    margin-left: -47% !important;
-    width: 301px !important;
-    height: 36px!important;
-    padding: 3px 8px !important;
-    color: #314A5B;
-    text-align: center;
-    font-weight: 900;
-    z-index: 1070 !important;
-    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #A2BBCC), to(#FFFFFF));
-    background: -moz-linear-gradient(top, #FFFFFF, #A2BBCC 1px, #FFFFFF 25px);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 15px;
-    border: 1px solid #314A5B;
-    /*margin-top: 400px;*/
-    /*position: relative;*/
-    /*z-index: 1070;*/
-    display: block;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    line-height: 1.428571;
-    text-decoration: none;
-    text-shadow: none;
-    text-transform: none;
-    letter-spacing: normal;
-    word-break: normal;
-    word-spacing: normal;
-    word-wrap: normal;
-    white-space: normal;
-    line-break: auto;
-}
-
-.glyphicon-triangle-top {
-    position: absolute !important;
-    margin-top: 0.98%;
-    margin-left: -3% !important;
-    top: 0px !important;
-    left: -1% !important;
-    border-width: 0 5px 5px !important;
-    border-bottom-color: #000 !important;
-}
 .bg {
     /*background: linear-gradient(to right, black, white, black)*/
     background-image: url(../img/numberFour.jpg);
@@ -180,15 +89,16 @@ html {
     text-align-last: center;
 }
 
-#briefcase-combo {
-
-}
 
 #briefcase-pic {
     display: none;
     margin-top: 3em;
     margin-left: -4%;
     width: 100%;
+}
+
+.briefcase-click {
+    display: none;
 }
 
 #resume-pic {
@@ -222,6 +132,50 @@ html {
     display: none;
     height: 50px;
     width: 50px;
+}
+
+#briefcase-tool {
+    position: relative !important;
+    max-width: none !important;
+    font-size: 20px !important;
+    margin-top: 4% !important;
+    margin-left: -47% !important;
+    width: 301px !important;
+    height: 36px!important;
+    padding: 3px 8px !important;
+    color: #314A5B;
+    text-align: center;
+    font-weight: 900;
+    z-index: 1070 !important;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #A2BBCC), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #A2BBCC 1px, #FFFFFF 25px);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+    border: 1px solid #314A5B;
+    display: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.428571;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    line-break: auto;
+}
+
+.glyphicon-triangle-top {
+    position: absolute !important;
+    margin-top: 0.98%;
+    margin-left: -3% !important;
+    top: 0px !important;
+    left: -1% !important;
+    border-width: 0 5px 5px !important;
+    border-bottom-color: #000 !important;
 }
 
 
@@ -298,14 +252,6 @@ html {
         /*font-size: 5vw;*/
     }
 
-    #briefcase-tool {
-        margin-top: -1% !important;
-        margin-left: -58% !important;
-    }
-    .glyphicon-triangle-top {
-        margin-top: -3.67% !important;
-    }
-
     #profile-pic {
         margin-left: 4%;
         width: 90%;
@@ -325,6 +271,14 @@ html {
         font-size: 6vw !important;
     }
 
+    #briefcase-tool {
+        margin-top: -1% !important;
+        margin-left: -58% !important;
+    }
+    .glyphicon-triangle-top {
+        margin-top: -3.67% !important;
+    }
+
     #icons {
         margin-bottom: 25px;
     }
@@ -341,10 +295,13 @@ html {
         width: 90%;
     }
 
-
     #briefcase-tool {
-        margin-top: -0.7% !important;
-        margin-left: -61% !important;
+        margin-top: -1.8% !important;
+        margin-left: -60% !important;
+    }
+
+    .glyphicon-triangle-top {
+        margin-top: -4.67% !important;
     }
 
     #summary {
@@ -363,5 +320,32 @@ html {
 
     #icons {
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #briefcase-tool {
+        margin-top: -1.6% !important;
+        margin-left: -66% !important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #briefcase-tool {
+        margin-top: -1.3% !important;
+        margin-left: -70% !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #briefcase-tool {
+        margin-top: -1% !important;
+        margin-left: -78% !important;
+    }
+}
+@media screen and (max-width: 460px) {
+    #briefcase-tool {
+        margin-top: -0.7% !important;
+        margin-left: -86% !important;
     }
 }

@@ -55,7 +55,7 @@ $(document).ready(function () {
         e.preventDefault();
         if(briefcaseCount % 2 == 0){
             $(".img-briefcase").slideDown();
-            $(".briefcase-click").slideDown();
+            $(".briefcase-click").css('display', 'block').slideDown();
             $(".img-robot").slideUp();
             briefcaseOpen = true;
         }else{
