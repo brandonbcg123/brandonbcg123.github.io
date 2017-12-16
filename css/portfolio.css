@@ -237,6 +237,12 @@ html {
         font-size: 46px !important;
     }
 
+    #briefcase-pic {
+        margin-top: 2.5em;
+        margin-left: 2%;
+        width: 85%;
+    }
+
     .main-icons {
         width: 60%;
 
@@ -244,6 +250,12 @@ html {
 
     #briefcase-triangle {
         margin-left: -4.3% !important;
+    }
+
+    #resume-pic {
+        margin-top: 2.5em;
+        margin-left: 17%;
+        width: 90%
     }
 
     #resume-icon {
