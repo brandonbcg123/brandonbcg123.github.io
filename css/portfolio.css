@@ -244,11 +244,13 @@ html {
     }
 
     .main-icons {
+        margin-top: -12px;
         width: 60%;
 
     }
 
     #briefcase-triangle {
+        margin-top: -23px;
         margin-left: -4.3% !important;
     }
 
@@ -259,13 +261,13 @@ html {
     }
 
     #resume-icon {
-        width: 60%;
         margin: 0 auto;
-        margin-bottom: 15px;
+        margin-top: -4px;
+        width: 60%;
     }
 
     #resume-triangle {
-        margin-top: -11px;
+        margin-top: -15px;
         margin-left: -4.3% !important;
     }
 
