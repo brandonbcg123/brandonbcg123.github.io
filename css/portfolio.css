@@ -89,7 +89,6 @@ html {
     text-align-last: center;
 }
 
-
 #briefcase-pic {
     display: none;
     margin-top: 3em;
@@ -134,12 +133,12 @@ html {
     width: 50px;
 }
 
-#briefcase-tool {
+.main-icons {
     margin: 0 auto;
     position: relative !important;
     max-width: none !important;
     font-size: 20px;
-     margin-top: 14px;
+    margin-top: 14px;
     width: 35%;
     padding: 3px 8px;
     color: #314A5B;
@@ -167,15 +166,31 @@ html {
     line-break: auto;
 }
 
-.glyphicon-triangle-top {
+#resume-icon {
+    margin-left: 67%;
+    margin-top: 25px;
+    width: 35%;
+}
+
+#briefcase-triangle {
     position: absolute;
     margin-top: 3px;
     margin-left: -3%;
     left: 51.4%;
     border-width: 0 5px 5px;
     border-bottom-color: #000;
+    display: none;
 }
 
+#resume-triangle {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 31%;
+    left: 51.4%;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000;
+    display: none;
+}
 
 @media screen and (max-width: 1199px) {
     #summary {
@@ -190,8 +205,12 @@ html {
         font-size: 42px !important;;
     }
 
-    #briefcase-tool {
+    .main-icons {
         width: 39%;
+    }
+
+    #resume-icon {
+        width: 38%;
     }
 }
 
@@ -218,12 +237,23 @@ html {
         font-size: 46px !important;
     }
 
-    #briefcase-tool {
+    .main-icons {
         width: 60%;
 
     }
 
-    .glyphicon-triangle-top {
+    #briefcase-triangle {
+        margin-left: -4.3% !important;
+    }
+
+    #resume-icon {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    #resume-triangle {
+        margin-top: -11px;
         margin-left: -4.3% !important;
     }
 
@@ -262,7 +292,11 @@ html {
         font-size: 6vw !important;
     }
 
-    #briefcase-tool {
+    .main-icons {
+        width: 70%;
+    }
+
+    #resume-icon {
         width: 70%;
     }
 
@@ -294,9 +328,14 @@ html {
         font-size: 6vw !important;
     }
 
-    #briefcase-tool {
+    .main-icons {
         width: 90%;
     }
+
+    #resume-icon {
+        width: 90%;
+    }
+
     #icons {
         margin-bottom: 30px;
     }

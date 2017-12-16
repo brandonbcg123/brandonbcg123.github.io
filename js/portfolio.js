@@ -42,6 +42,7 @@ $(document).ready(function () {
         }
         if($(".img-resume").css('display') == 'inline') {
             $(".img-resume").slideUp();
+            $(".resume-click").slideUp();
             resumeCount++;
             resumeOpen = false;
         }
@@ -76,6 +77,7 @@ $(document).ready(function () {
         }
         if($(".img-resume").css('display') == 'inline'){
             $(".img-resume").slideUp();
+            $(".resume-click").slideUp();
             resumeOpen = false;
             resumeCount++;
         }
@@ -89,6 +91,7 @@ $(document).ready(function () {
         e.preventDefault();
         if(resumeCount % 2 == 0){
             $('.img-resume').slideDown();
+            $(".resume-click").css('display', 'block').slideDown();
             $(".img-robot").slideUp();
             resumeOpen = true;
         }else{
