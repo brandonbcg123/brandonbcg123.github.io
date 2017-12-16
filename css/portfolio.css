@@ -238,7 +238,7 @@ html {
     }
 
     #briefcase-pic {
-        margin-top: 1em;
+        margin-top: 1em !important;
         margin-left: 2%;
         width: 85%;
     }
@@ -255,7 +255,7 @@ html {
     }
 
     #resume-pic {
-        margin-top: 1em;
+        margin-top: 1em !important;
         margin-left: 17%;
         width: 90%
     }
