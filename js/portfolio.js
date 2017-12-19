@@ -96,6 +96,7 @@ $(document).ready(function () {
             resumeOpen = true;
         }else{
             $('.img-resume').slideUp();
+            $(".resume-click").slideUp();
             $(".img-robot").slideToggle();
             resumeOpen = false;
         }
